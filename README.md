@@ -13,7 +13,7 @@
           gateway4: 172.20.0.1
           nameservers:
             addresses: [8.8.8.8,8.8.4.4]
-    version: 2
+      version: 2
       
 > Save lại, chạy lệnh này
 
