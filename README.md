@@ -1,8 +1,8 @@
-# Cấu hình IP tĩnh
+Step 1. Run this command
 
     sudo nano /etc/netplan/00-installer-config.yaml
     
-> Copy đoạn code này vô
+Step 2. Copy this code 
 
     # This is the network config written by 'subiquity'
     network:
@@ -15,12 +15,6 @@
             addresses: [8.8.8.8,8.8.4.4]
       version: 2
       
-> Save lại, chạy lệnh này
+Step 3. Save and run this command
 
     sudo netplan try --state /etc/netplan
-        
-> Kiểm tra IP đã thiết lập thành công hay chưa
-
-    ip a
-
-![alt](https://i.imgur.com/nSbAw2u.png)
