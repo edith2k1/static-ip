@@ -2,7 +2,7 @@ Step 1. Run this command
 
     sudo nano /etc/netplan/00-installer-config.yaml
     
-Step 2. Copy this code 
+Step 2. Copy this to the file
 
     # This is the network config written by 'subiquity'
     network:
